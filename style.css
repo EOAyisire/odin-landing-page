@@ -4,7 +4,7 @@ body{
     height:100vh;
     margin:0;
     overflow:hidden;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     display:column;
 
 }
@@ -46,34 +46,41 @@ a{
     height:400px;
     background-color: #1f2937;
     display: flex;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+   
   
 }
 .hero-container{
-    width:500px;
+    width:1200  px;
     display: flex;
-    align-items: flex-start;
-    justify-content: center;
+    margin-top:50px;
+    margin-left:190px;
 }
 
 
 .modal{
     display: flex;
     flex-direction: column;
+    width: 400px;
     margin:0;
     padding: 0;
-    width:400px;
+
 }
 
 .modal-description,.modal-title{
     margin: 0;
     padding:0;
+    
+}
+
+.modal-description{
+    color:#E5E7EB;
 }
 
 .modal-title{
     margin-bottom:4px;
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 700;
     color: #f9faf8;
     
 
@@ -86,7 +93,19 @@ a{
     background-color: #3883f6;
     color:white;
     font-size: 10px;
-    font-weight: bold;
+    font-weight: 400;
     border-radius: 5px;
     border: none;
+}
+
+.img-holder{
+    width: 800px;
+    height: 220px;
+    margin-left: 50px;
+    background-color: #E5E7EB;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
