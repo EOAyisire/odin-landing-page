@@ -71,7 +71,7 @@ a{
 
 }
 
-.modal-description,.modal-title{
+p{
     margin: 0;
     padding:0;
     
@@ -151,29 +151,104 @@ a{
 .card-caption{
     font-size: 18px;
     color: grey;
+    margin-top: 5px;
 
 }
 
 .quote-section{
-    padding:200px 100px;
+    padding:120px 60px;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.quote{
+    color:#1F2937;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    width: 700px;
+    margin-bottom: 20px;
+  
+    
+}
+
+.quote-author{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 400px;
+
+    
+
+}
+.action-section{
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
 
 }
 
 .action-box{
-    width:300px;
-    display:flex;
+    background-color: #3883f6;
+    padding: 20px 10px;
+    width:800px;
+    border-radius: 8px;
+    display: flex;
     flex-direction: column;
+    
+    
+    
+    
 }
+
+#action-text-wrapper{
+    margin:auto;
+}
+
+.action-button{
+    border:2px solid white;
+    border-radius: 5px;
+    padding:5px 10px;
+    background-color: #3883f6;
+    color:white;
+    margin-left:50px;
+}
+
+
+.action-title{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    
+    
+    
+}
+
+.action-description{
+    color:white;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
 
 .footer{
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #1f2937;
+    padding: 30px 15px;
    
 
 }
+
+
 
 .copyright{
   color:white;
